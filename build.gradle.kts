@@ -28,10 +28,11 @@ dependencies {
     implementation(libs.h2database.r2dbc)
     implementation(libs.logback.classic)
     implementation(libs.postgresql)
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.jdbc)
 
     implementation("org.jetbrains.exposed:exposed-migration-core:1.0.0")
     implementation("org.jetbrains.exposed:exposed-migration-jdbc:1.0.0")
-    implementation("org.jetbrains.exposed:exposed-spring-boot4-starter:1.0.0")
 
 
     testImplementation(kotlin("test"))
